@@ -12,7 +12,10 @@
     <!-- END LOADING BOOTSTRAP CSS -->
 
     <!--Google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Manrope:wght@300;400&family=Montserrat:wght@200;300;400;500;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300&family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+
 
 
     <!-- Custom styles -->
@@ -21,42 +24,75 @@
   <body>
     
  <!--header-->  
-  <nav class="navbar-light fixed-top bg-light">
-   <div class="container-fluid gx-0">
-      <div class="d-flex flex-wrap justify-content-center py-3">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-        <span class="fs-4">Marci Anderson</span>
-      </a>
 
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/index.html#" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/about.html" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/neighborhoods.html" class="nav-link">Neighborhoods</a></li>
-        <li class="nav-item"><a href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/testimonials.html" class="nav-link">Testimonials</a></li>
-        <li class="nav-item"><a href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/past_sales.html" class="nav-link">Past Sales</a></li>
+
+<nav class="navbar navbar-expand-lg navbar-light py-3 px-4">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="assets/logo_3.png" width="150" height="75" class="d-inline-block align-text-top" alt="The Maranto Team Logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/neighborhoods.html">Neighborhoods</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/testimonials.html">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/past_sales.html">Past Sales</a>
+        </li>
       </ul>
     </div>
-  <!--Header Image-->
   </div>
 </nav>
+  <!--Header Image-->
+
 <header>
  <div class="container-fluid py-4 text-center" id="header">
+    <h3>Marci Anderson</h3>
         <h1 class="display-5">Open a New Door</h1>
+        <h2>Your Baltimore Area Expert</h2>
        <!-- <h2>Marci Anderson</h2>
         <h3>Cummings & Co REaltor</h3>-->
       </div>
     </header>
 
+      <section id="about">
+        <div class="container">
+           <div class="row align-items-start">
+            <div class="col-md-7" id="abouttext">
+              <h2>Meet Marci</h2>
+              <p>I am a licensed realtor and have a BA in Organizational Leadership from Pennsylvania State University. When you work with me, you will receive honesty, patience, and most importantly you will see my passion for helping others.<br>
+              My prior career as a professional home organizer has provided me with a unique skill set that syncs perfectly to what I provide for clients in my real estate career. Through my previous work, I have developed strong skills in working closely with people and their possessions. Transferring this skill to real estate is very fitting, seeing as a home is one of the most important possessions you can own. Determining what my clients want to achieve, understanding their priorities, and being able to truly listen to their preferences are strengths of mine.</p>
+               <div class="text-center">
+                <a class="btn btn-primary" id="abtbtn" href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/about.html" role="button">Learn More</a>
+              </div>
+            </div>
+            <div class="col-sm-5 text-center">
+              <img src="assets/Marci-Anderson.png" alt="Marci Anderson Headshot">
+            </div>
+          </div>
+         </div>
+        </section>
+
+
 <section id="neighborhoods">
 <div class="album py-3">
-  <h2 class="text-center">Neighborhoods</h2>
+  <h2 class="text-center">Featured Neighborhoods</h2>
     <div class="container">
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card text-center">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></svg>
+            <img src="assets/cantonphoto.jpg" alt="Baltimore">
 
             <div class="card-body">
               <p class="card-text">Canton</p>
@@ -65,7 +101,7 @@
         </div>
         <div class="col">
           <div class="card text-center">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></svg>
+            <img src="assets/fellspoint.jpg" alt="Baltimore">
 
             <div class="card-body">
               <p class="card-text">Fells Point</p>
@@ -74,16 +110,18 @@
         </div>
         <div class="col">
           <div class="card text-center">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></svg>
+          <img src="assets/rowhome.png" alt="Baltimore">
 
             <div class="card-body">
               <p class="card-text">Federal Hill</p>
             </div>
           </div>
         </div>
+      </div>
+    <div class="row row-cols-1 row-cols-sm-2 g-3 text-center">
         <div class="col">
           <div class="card text-center">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></svg>
+           <img src="assets/condos.jpg" alt="Baltimore">
 
             <div class="card-body">
               <p class="card-text">Hampden</p>
@@ -92,16 +130,7 @@
         </div>
         <div class="col">
           <div class="card text-center">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></svg>
-
-            <div class="card-body">
-              <p class="card-text">Highlandtown</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card text-center">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></svg>
+           <img src="assets/interior2.jpg" alt="Baltimore">
 
             <div class="card-body">
               <p class="card-text">Greektown</p>
@@ -115,34 +144,39 @@
     </div>
   </div>
 </section>
-               <!-- Testimonialls section -->
+
+
+ <!-- Testimonialls section -->
            <section class="mx-5 my-5" id="testimonials">
+            <div class="text-center">
            <h2 class="text-center my-4">Testimonials</h2>
+           <img src="assets/quote.svg" alt="svg" width=55 height=45>
+         </div>
            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item active" id="long">
                 <div class="container">
                   <div class="carousel-caption">
-                    <h3>Name</h3>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    <h3>Jonathan Binkley</h3>
+                    <p>"Marci showed me plenty of houses in Canton and was very knowledgeable on what I should look out for when touring the homes. Also, throughout the contract period, she was very helpful staying on top of everything with the other realtor as well as helping me with the mortgage company, inspections, and title company."</p>
                   </div>
                 </div>
               </div>
 
-              <div class="carousel-item">
+              <div class="carousel-item" id="long">
                 <div class="container">
                   <div class="carousel-caption">
-                    <h3>Name</h3>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    <h3>Nichell</h3>
+                    <p>"Marci was timely, personable, and most importantly honest. Totally in love with my new home, and it’s thanks to her guidance because initially I was looking at places that would not have been ideal for my immediate needs due to looking at potential. What I needed right now was a home and not a project- 5 stars"</p>
                   </div>
                 </div>
               </div>
 
-              <div class="carousel-item" id="values">
+              <div class="carousel-item" id="long">
                 <div class="container">
                   <div class="carousel-caption">
-                    <h3>Name</h3>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    <h3>Joe Whilden</h3>
+                    <p>"Marci is an absolute rock star! My experience with her was outstanding, from our first conversation to the closing table. She is extremely responsive, her negotiation skills are next to none, and she is always ready to go for whenever a new listing pops up on the MLS. I would recommend Marci to anyone looking for their next home. She is the best!!"</p>
                   </div>
                 </div>
               </div>
@@ -158,23 +192,6 @@
           </div>        
       </section>
 
-      <section id="about">
-        <div class="container">
-           <div class="row align-items-start">
-            <div class="col-md-7" id="abouttext">
-              <h2>About Me</h2>
-              <p>I am a licensed realtor and have a BA in Organizational Leadership from Pennsylvania State University. When you work with me, you will receive honesty, patience, and most importantly you will see my passion for helping others.<br>
-              My prior career as a professional home organizer has provided me with a unique skill set that syncs perfectly to what I provide for clients in my real estate career. Through my previous work, I have developed strong skills in working closely with people and their possessions. Transferring this skill to real estate is very fitting, seeing as a home is one of the most important possessions you can own. Determining what my clients want to achieve, understanding their priorities, and being able to truly listen to their preferences are strengths of mine.</p>
-               <div class="text-center">
-                <a class="btn btn-primary" id="abtbtn" href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/about.html" role="button">Learn More</a>
-              </div>
-            </div>
-            <div class="col-sm-5 text-center">
-              <img src="assets/Marci-Anderson.png" alt="Marci Anderson Headshot">
-            </div>
-          </div>
-         </div>
-        </section>
 
 <section id="pastsales">
   <div class="album py-3">
@@ -184,37 +201,37 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></svg>
+            <img src="assets/ps1.jpg" alt="ps1">
 
             <div class="card-body">
-              <h3>&#36;12,345</h3>
-                <p class="card-text"><br> 1234 Address Way<br> Baltimore, MD 12345<br><br>2 Beds | 3 Bath | 1,234 Sq Ft</p>
+              <h3>&#36;305,500</h3>
+                <p class="card-text">908 S Decker Ave, Baltimore, MD 21224<br>2 Beds | 3 Bath | 1,100 Sq Ft</p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></svg>
+             <img src="assets/ps2.jpg" alt="ps2">
 
             <div class="card-body">
-              <h3>&#36;12,345</h3>
-                <p class="card-text"><br> 1234 Address Way<br> Baltimore, MD 12345<br><br>2 Beds | 3 Bath | 1,234 Sq Ft</p>
+              <h3>&#36;761,000</h3>
+                 <p class="card-text">926 Fell St, Baltimore, MD, 21231<br>3 Beds | 3 Bath | 2,524 Sq Ft</p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></svg>
+           <img src="assets/ps3.jpg" alt="ps3">
 
             <div class="card-body">
-              <h3>&#36;12,345</h3>
-                <p class="card-text"><br> 1234 Address Way<br> Baltimore, MD 12345<br><br>2 Beds | 3 Bath | 1,234 Sq Ft</p>
+              <h3>&#36;280,000</h3>
+                <p class="card-text">2123 Moyer St, Baltimore, MD 21231<br>2 Beds | 2 Bath | 1,170 Sq Ft</p>
             </div>
           </div>
         </div>
       </div>
       <div class="text-center">
-        <a class="btn btn-primary" id="pastsalesbtn" href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/neighborhoods.html" role="button">View All</a></div>
+        <a class="btn btn-primary" id="pastsalesbtn" href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/past_sales.html#" role="button">View All</a></div>
 
     </div>
   </div>
@@ -222,27 +239,25 @@
 
 <footer>
      <div class="row align-items-start">
-    <div class="col-lg-4">
+    <div class="col-md-4">
       <h2>Marci Anderson</h2>
-      <img src="assets/cclogos.png" alt="cclogos">
+      <img src="assets/logo_2.jpg" alt="cclogos" height="100" width="200">
+      <img src="assets/logo_1.png" alt="cclogos" height="100" width="100">
     </div>
-    <div class="col-lg-4">
+    <div class="col-md-4" id="footercol2">
       <h3>Quick Links</h3>
-      <p>Neighborhoods<br>
-        Testimonials<br>
-          About Me<br>
-          Past Listings
+      <p><a href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/neighborhoods.html">Neighborhoods</a><br>
+        <a href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/testimonials.html">Testimonials</a><br>
+          <a href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/about.html">About Me</a><br>
+          <a href="file:///Users/Natali/Desktop/marci_anderson_realtor_site/past_sales.html">Past Listings</a>
         </p>
     </div>
-    <div class="col-lg-4">
+    <div class="col-md-4" id="footercol3">
       <h3>Contact</h3>
       <p>443-732-7673<br>
       marci@cummingsrealtors.com</p>
-    <ul class="list-unstyled">
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-      </ul>
+      <img src="assets/zillowpalogo.png" alt="cclogos" height="28" width="100">
+
     </div>
   </div>
 </footer>
